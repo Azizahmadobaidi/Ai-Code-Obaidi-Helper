@@ -76,17 +76,15 @@ body {
 button[type="submit"] {
   padding: 12px 24px;
   font-size: 16px;
-  background-color: #238636;
   color: #ffffff;
   border: none;
   border-radius: 0 8px 8px 0;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background:linear-gradient( 50deg,#101333,#0D1717);
+ 
 }
 
-button[type="submit"]:hover {
-  background-color: #2ea043;
-}
 body {
   font-family: 'Fira Code', 'Courier New', monospace;
   background-color: #0d1117;
